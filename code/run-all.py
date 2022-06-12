@@ -5,7 +5,7 @@ path = '.'
 allflst = os.listdir(path)
 #print(allflst)
 
-pyflst = [file for file in allflst if file.endswith(".py") and file not in 'run-all.py']
+pyflst = [file for file in allflst if file.endswith(".py") and file not in ['run-all.py', '05-03mart.py' ]]
 #print(pyflst)
 
 # 현재 폴더의 모든 파일(자신 파일 run-all.py 제외) 실행
